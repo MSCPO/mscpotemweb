@@ -21,119 +21,156 @@
 #     - 创造
 #     - 猫娘 # ?!
 
-- name: ZUYCraft服务器
+- name: PepperCraft
   icon:
-    src: /server_icons/zuymc_black.png
-  type: Bedrock
-  version: 1.21
-  desc: 首个在基岩版的提出生存-建筑理念的服务器！运行长达一年，稳定可靠！管理组热情，玩家河蟹，欢迎加入！
-  link: https://mc.zuyst.top
-  is_member: true
+    src: /logo.webp
+  type: Geyser
+  version: 1.20-1.21.8
+  desc: |
+    一个"基于原版，忠于原版"，尝试将PVP、生存、生电等玩家融合的原版生存服务器。
+  link: docs.pepper.ltd
+  ip: Pepper.ltd
+  is_member: false
   auth_mode: official
+  tags:
+    - 纯净
+    - 生存
+    - 生电
+
+- name: 屯人服
+  icon:
+    src: /trf/trf.png
+  type: Geyser
+  version: 1.21.4
+  desc: |
+    屯人服是一个公益性质的1.21.4生存服务器
+    我们提供稳定流畅的游戏体验和友好的社区氛围
+    无论你是建筑师、红石玩家还是生存爱好者，这里都有你的一席之地
+  link: https://qm.qq.com/q/1043492617
+  ip: 506521.xyz
+  is_member: true
+  auth_mode: offline
   tags:
     - 生存
     - 建筑
-    - 原汁原味
+    - 红石
 
-- name: CHLcraft 1.21纯净生存服
-  icon:
-    src: /server_icons/CHLcraft.webp
-  type: Java
-  version: 1.21
-  desc: 玩法:娱乐、养老、建筑、社交、生存群组服服务器
-  link: https://qm.qq.com/q/MYyW731OUu
+- name: 扶摇服务器
+  type: Geyser
+  version: 1.8x～1.21.10
+  desc: 扶摇服务器
+  link: https://qm.qq.com/q/371330615
+  ip: y.mcfy.top
   is_member: false
   auth_mode: offline
   tags:
-    - 摸鱼养老
-    - 建筑
-    - 社交
+    - 模组Mod
+
+- name: StarryRain
+  type: Geyser
+  version: 1.21.1及以上
+  desc: StarryRain
+  link: https://qm.qq.com/q/124761580
+  ip: play.simpfun.cn:19169
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 生存
+    - 创造
+
+- name: LFA
+  type: Java
+  version: 1.21.x
+  desc: LFA
+  link: https://qm.qq.com/q/1054182284
+  ip: mc.lfs.wiki
+  is_member: false
+  auth_mode: offline
+  tags:
     - 生存
 
-- name: AncientBC
-  icon:
-    src: /server_icons/AncientBC.webp
+- name: A暗黑与魔法
   type: Java
   version: 1.20.1
-  desc: 这里是一个超友好的Minecraft服务器社区！在原版基础添加更多玩法和地形，不影响生电，无圈地，无论是玩家互动，养老，建筑，生电都是没有问题哒！
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=r4Iu4wC53j0UUxxa5ANc0qIu_hYtk4vn&authKey=FSsA4Kh4BHqJlH8MzKieRS%2Fv4cp3rJHDF5sp1mSpALYVctxdP5IBCQpDEz1ZwHSD&noverify=0&group_code=681032398
+  desc: A暗黑与魔法
+  link: https://qm.qq.com/q/1023273739
+  ip: dx.frp-fan.com:54888
   is_member: false
-  auth_mode: official
+  auth_mode: offline
   tags:
-    - 生电
-    - 摸鱼养老
-    - 建筑
-    - 友好
+    - 模组Mod
+
+- name: xrsl
+  type: Geyser
+  version: 全版本
+  desc: xrsl
+  link: https://qm.qq.com/q/1011973203
+  ip: xrsl.club:25565
+  is_member: false
+  auth_mode: offline
+  tags:
+    - 群组
 
 - name: 福渊大陆
   icon:
     src: /server_icons/FuYuanDaLu.webp
   type: Geyser
-  version: 1.20.4
+  version: 1.7-1.21.x
   desc: 无杂乱的玩法,只是一个纯粹生存的世界。欢迎您于此：享受时光、结交好友或是探索世界。
   link: https://fhy1234.framer.media/FuWorld
+  ip: play.simpfun.cn:10473
   is_member: false
   auth_mode: offline
   tags:
     - 生存
     - 纯净
 
-- name: LZDCraft
-  icon:
-    src: /server_icons/LZDCraft.webp
+- name: Trapped
   type: Java
-  version: 1.8.x-1.20
-  desc: 纯净生存服务器
-  link: https://www.lzdcraft.top/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 纯净
-    - 生存
-
-- name: 江南社会主义人民共和国 服务器
-  icon:
-    src: /server_icons/MCSPRJ.webp
-  type: Java
-  version: 1.20.1
-  desc: 生存服
-  link: https://qm.qq.com/q/SunGAv7AMs
+  version: 1.20.3-1.21.10
+  desc: Trapped
+  link: https://qm.qq.com/q/319781967
+  ip: mc.ximuo.top
   is_member: false
   auth_mode: offline
   tags:
     - 生存
 
-- name: 新浪潮服务器（未来 2098）
+- name: 星光StarShine
   icon:
-    src: /logo.webp
-  type: Bedrock
-  version: 1.20.72
-  desc: 城建服
-  link: https://qm.qq.com/q/6uychCQhZ6
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 城建
-    - 创造
-
-- name: MCODW 服务器
-  icon:
-    src: /server_icons/MCODW.webp
+    src: /server_icons/StarShine.png
   type: Geyser
-  version: 1.20.1
-  desc: leaves生电+粘液
-  link: https://mcyouxi.asia/
+  version: 全版本
+  desc: |
+    互通插件生存服务器
+    死亡不掉落:主世界✓下界✓末地×
+    主城含有一个物品不太全的商店，服务器带传送，领地，商店等插件，目前主玩法为生存，自由探索，后续尝试打算改群组服尝试以添加一些小游戏，进服请加群！
+    官网：www.8bc.top
+    玩家交流群：237099407
+  link: https://www.8bc.top
+  ip: 8bc.top
+  is_member: true
+  auth_mode: yggdrasil
+  tags:
+    - 生存
+
+- name: FunTocraft
+  type: Bedrock
+  version: 1.21.50-1.21.114
+  desc: |
+    服务器有完善的插件，还有各种模组等待您来游玩！
+  link: https://www.tobecraft.xyz/
+  ip: mc.mcmcc.cc:25766
   is_member: false
   auth_mode: offline
   tags:
-    - 生电
-    - 粘液科技
+    - 生存
 
 - name: EternalStar (永恒星)
   icon:
     src: /server_icons/EternalStar.webp
   type: Geyser
-  version: 1.20.4
+  version: 1.8.9-1.20.6
   desc: |
     群组服（纯净生存 + 小游戏 + 容易爆炸的RPG）
     EternalStar旨在给玩家更好的游戏体验，即使我们曾经遇到过无数困难，但我们没有就此离去，在开始时我们甚至无法保证服务器正常连接，但现在我们已经拥有了强大的网络供应和顶流的服务器
@@ -148,35 +185,11 @@
     - 小游戏
     - 角色扮演
 
-- name: HappyDog
-  icon:
-    src: /server_icons/HappyDog.webp
-  type: Geyser
-  version: 1.8.X-1.20.x
-  desc: HappyDog新服开荒！1.8.X-1.20.x多版本支持！且支持基岩版玩家进入服务器！无正版无白名单，快来一键进服玩耍！快来和小伙伴占山为王吧！
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XMDbSMq5gMVGTESYHiBOQB80SoYJA7U4&authKey=qRhuSkFIxpfQc9CYs4MnfidRNI2cOcrT1HqoJbVV7%2BujhsywsYPx8Kv0NzuCitxd&noverify=0&group_code=192088919
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: DustServer（尘埃聚落）
-  icon:
-    src: /server_icons/DustServer.webp
-  type: Java
-  version: 1.20.1
-  desc: 生存服
-  link: http://smalldust.流萤.love/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
 - name: 2b2t.run
   icon:
     src: /server_icons/2b2t_run.webp
-  type: Java
-  version: 1.20.1
+  type: Geyser
+  version: 1.8.9-1.20.6
   desc: |
     无政府服务器
     2b 你好我的朋友
@@ -190,1214 +203,81 @@
     - 生存
     - 类2B2T
 
-- name: MCIC
-  icon:
-    src: /server_icons/MCIC.webp
+- name: Mydark Craft枪械PVE服务器
   type: Java
-  version: 1.16.x-1.20.2
-  desc: "*Unknown**无线电静默*成分复杂的服务器"
-  link: https://qm.qq.com/q/6DsL9DkN3O
+  version: 1.20.1
+  desc: Mydark Craft枪械PVE服务器
+  link: https://qm.qq.com/q/981763520
+  ip: zz-s3.shiyuegame.cloud:20167
   is_member: false
   auth_mode: offline
   tags:
-    - 生存
-
-- name: EMP-Tfir(薪火重燃)
-  icon:
-    src: /server_icons/EMP_Tfir.webp
-  type: Geyser
-  version: 1.7-1.21
-  desc: |
-    Tech Otakus save the world.
-    立志于打造卓越的互通服务器！
-    主要玩法为养老，生存。
-    星星之火，可以燎原！
-  link: https://www.empmc.cn
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 摸鱼养老
-    - 生存
-
-- name: 星梦缘
-  icon:
-    src: /server_icons/xmy.webp
-  type: Java
-  version: 1.7.10-1.21.x
-  desc: |
-    一个生存养老生电服务器，稍稍带点升级和金币系统
-    主要玩法为养老、生存、红石
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RvnIElsqnnLFumZna--bcq2_heD_tL_b&authKey=7ukvB881FlPlB6%2FkPR8QL%2BihosPQy%2Fk5B4HsEGHekkmZ7sDPOgj6qFkI8Hl6MALH&noverify=0&group_code=925356827
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 摸鱼养老
-    - 生存
-    - 红石
-
-- name: Pixelverse 像素宇宙
-  icon:
-    src: /server_icons/Pixelverse.webp
-  type: Java
-  version: 1.20.x
-  desc: RPG生存服/免费VIP/遗迹探险/副本挑战/养老生存
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TECOnBn_yGy7C6NW6wxcFgCrUyd6fLLk&authKey=MWFWALPTlQ%2FQylWzDy6GOiSfLyGMu7lVhM%2BBhgXei3IAI96x6lHaNOVa3vUu%2BOBn&noverify=0&group_code=931753287
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 角色扮演
-    - 摸鱼养老
-    - 生存
-
-- name: 清凉一夏
-  icon:
-    src: /server_icons/Cool_Summer.webp
-  type: Geyser
-  version: 1.12.2
-  desc: 神奇宝贝服全世代宝可梦包括人物宝可梦
-  link: https://qm.qq.com/q/rPOJ7UH8uk
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 宝可梦
-
-- name: 沫之生存
-  icon:
-    src: /server_icons/mozhisc.webp
-  type: Java
-  version: 1.16.5
-  desc: 沫之生存是一个友爱的模组公益服，主要构成为两个肝服+一个养老服，肝服主要开Curseforge等模组整合包，养老服以养老探索为主不删档。服务器支持离线登录，也有皮肤显示与圈地、登录等适配模组。QQ群：1035365056
-  link: https://www.bilibili.com/video/BV1vw4m1a7cZ
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 摸鱼养老
-    - 群组
     - 模组Mod
+    - 枪械
+    - PVE
 
-- name: 青琉淩光联合服务器
-  icon:
-    src: /server_icons/CGML.webp
+- name: Craft233
   type: Geyser
-  version: 1.20.x
-  desc: 青琉淩光联合服务器是一个五服联合组成的大型综合服务器平台。开设以琉光市建筑地图为主体的城市建筑服和以玩家自由生存为主体的生存服（在建设）。青琉淩光，照亮未来！
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ignijPtlWjH2oE17VE5gb2TN9m8lFDdL&authKey=RvbJDW7%2BXKMOH8CZnlz4VPoHdJYJ6OFwUY34v84XUqJqWLzq2hN2LMBwiCsZRv%2F4&noverify=0&group_code=577706597
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 群组
-    - 生存
-    - 建筑
-    - 城建
-
-- name: MCSC服务器联合体
-  icon:
-    src: /server_icons/MCSC.webp
-  type: Geyser
-  version: 1.21.1
-  desc: MCSC服务器联合体是一个Minecraft服务器的联盟，现有四个下属服务器，分别为:公社化插件生存BE服务器「YPCP」，地球BE服务器「百葉」，Java&BE服务器「百葉互通」，Java生存服务器「密西加沙大本营」。
-  link: https://qm.qq.com/q/x9dqg3CZ5o
+  version: 1.20-最新
+  desc: Craft233
+  link: https://qm.qq.com/q/830277457
+  ip: mc.craft233.top
   is_member: false
   auth_mode: offline
   tags:
     - 生存
 
-- name: Badboys Network
-  icon:
-    src: /server_icons/Aurarts.webp
+- name: FFS 永恒落英
   type: Java
-  version: 1.8.x-1.21.x
-  desc: 2021年的一场变故，让 Badboys Server 陷入了徘徊期。一位管理却并不认为结局感到如此。于是他启动了「『链析』计划」。这项计划长达四年。自2021年开始，2024年为末，本服务器完成了从单服到群组服的迭代。包含了五种经典小游戏，其他玩法正在开发中!
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RmJf0KFZTkzdAwuzoxnuhz198qCwa7Xk&authKey=ILEmRIZnwstZrZVU%2FIDj%2F7habPR1C%2BQ6BtESsAJ76RRK%2FFNQPzjvWv0QYZzv6jJs&noverify=0&group_code=373311963
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 群组
-    - 小游戏
-
-- name: 花枫服务器
-  icon:
-    src: /server_icons/DFGG_Logo.webp
-  type: Java
-  version: 1.21.1
-  desc: 可自由切换游戏模式的建筑向服务器
-  link: https://mc.isgreat.top/
-  ip: play.flmp.uk
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 生存
-    - 创造
-    - 建筑
-    - 友好
-    - 社交
-    - 和谐
-    - 原版
-    - 城建
-
-- name: 斯卡林特联邦共和国
-  icon:
-    src: /server_icons/RSKG.webp
-  type: Netease
-  version:
+  version: 1.20.1
   desc: |
-    斯卡林特联邦共和国由7个地区服务器组成（包含5个直辖市及2个州级行政区，目前已开发三个）。
-    是一个始建于2022年的新生亲俄服务器。我们真诚希望各位成员能够加入我们斯卡林特，成为我们的一份子。
-    在这里，我们将共同追求梦想，共同成长，共同创造美好的未来。我们相信，只要我们携手合作，定能创造出无数辉煌的成果。
-    让我们紧密团结在一起，齐心协力，为我们的服务器赢得荣耀，为实现M奥梦想而奋斗。
-    斯卡林特联邦共和国永远欢迎你们的加入！
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Rp1OKxxY1RVGfa4t7Vxz1VNsCI5EJ50_&authKey=P%2BzUEKkB929PsH5sLzCDRvN6a25azkJ%2B2%2Fv8RG9NCpa8ZZ7ntmiCWQsA32HVzh5X&noverify=0&group_code=786517417
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 城建
-    - 角色扮演
-
-- name: mcdogserver
-  icon:
-    src: /server_icons/MCDOGSERVER.webp
-  type: Java
-  version: 1.9.x-1.21
-  desc: 内含有tpa互传与登录插件
-  link: https://www.mcdogserver.top/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: tycat
-  icon:
-    src: /server_icons/tycat.webp
-  type: Java
-  version: 1.8.x-1.20.4
-  desc: |
-    欢迎来到我们的 tycat纯净服务器——一个完全原汁原味的 Minecraft 世界,让你重温游戏的本真乐趣!
-    我们的官方QQ群是：959356303
-  link: https://qm.qq.com/q/QLRQms1xKy
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 纯净
-    - 生存
-
-- name: 星梦桃源
-  icon:
-    src: /server_icons/XingMengTaoYuan.webp
-  type: Geyser
-  version: 1.8.x-1.21.1
-  desc: 这是一个支持基岩与Java双版本的离线服务器，专注于生存、生电、红石与建筑的原版插件服务器。
-  link: https://xingmengtaoyuan.zeabur.app/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 生电
-    - 红石
-    - 建筑
-
-- name: 极承魔域RPG
-  icon:
-    src: /server_icons/极承魔域RPG.webp
-  type: Java
-  version: 1.12.2
-  desc: |
-    服务器的主要玩法：职业 技能 RPG 空岛 深渊玩法 DNF强化 徽章镶嵌 DNF天空套合成 宠物体系 时空之物玩法(原神圣遗物)
-    服务器拥有的系统： 职业 技能 能力 称号 培养宠物 签到 空岛 领地 商店 精英怪 尸潮 自助充值 邮箱 礼包 签到 任务 组队 活动副本
-    QQ群：236513990
-  link: http://mc7.cloudcatc.com:1102/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 空岛
-    - 角色扮演
-
-- name: "[铸币柳]树怪的铁道服务器"
-  icon:
-    src: /server_icons/树怪的铁道.webp
-  type: Java
-  version: 1.19.2
-  desc: 机械动力附属铁道装饰模组[跨越]测试服，原色经典，直特风范。
-  link: https://qm.qq.com/q/IlLpUBApG0
+    落英服（FFS，全称：永恒落英服务器）于2025年11月22日正式开设。
+    一服主要模组包含机械动力、瓦尔基里、乐事、tacz 以及多种遗迹与地形模组。
+    管理制度文档： https://docs.qq.com/doc/DQ0Zwd1V0YWhyT0Vt
+  link: https://qm.qq.com/cgi-bin/qm/qr?k=lEsZimmoQ668f1V8XNMoOFvrAM5J1OPC&jump_from=webapi&authKey=paayygIXqR4CPAyu2UPvBUsKrR5p9aDPglvyFNUu8dEmqAS01JVMmaqd4wvnfJUj
+  ip: play.simpfun.cn:17595
   is_member: false
   auth_mode: offline
   tags:
     - 机械动力
-    - 模组Mod
-
-- name: "云边咖啡馆"
-  icon:
-    src: /server_icons/云边咖啡馆.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    客官，来咖啡馆坐坐吗，内提供除咖啡外任何饮料酒水茶
-    这是个我的世界服务器！
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CpJiYEnLGnyBpia8YbABuJac0JD_86NO&authKey=3D22Wvj7EWN6gj%2FUViNInlQWLA2otMF9Q%2FnhNclBMOS6m5PJ1nmaHoYX35VxWNGV&noverify=0&group_code=674547299
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 摸鱼养老
+    - 瓦尔基里
+    - 遗迹模组
+    - 多模组
     - 生存
 
-- name: "U-EPTM."
-  icon:
-    src: /logo2.webp
-  type: Java
-  version: 1.17.x-Latest
-  desc: 版本：Java | 1.17.x-Latest<br>这是一个1.20.6无规则公益服务器
-  link: https://mc.u-eptm.us.kg/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 类2B2T
-    - 生存
-
-- name: "TACS/茶水晶服务器"
-  icon:
-    src: /server_icons/tacserver.webp
-  type: Java
-  version: 1.20.4
-  desc: |
-    不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们
-    服务器为i5-13600KF+32G运存<br>审核通过后您方可加入服务器
-  link: https://www.tacserver.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 摸鱼养老
-    - 生电
-    - 建筑
-
-- name: "MTRpixel"
-  icon:
-    src: https://img.picui.cn/free/2024/08/30/66d11033a9db9.png
+- name: 星河市
   type: Java
   version: 1.20.1
-  desc: |
-    1.服务器核心使用mohist，实现插件模组并用
-    2.服务器城市建设正在进行
-    注意：新人进服默认以游客模式运行，游戏模式为冒险，如要进服建造，请看q群公告来操作
-  link: https://www.bilibili.com/video/BV126s5euEtd?t=80.7
+  desc: 星河市
+  link: https://qm.qq.com/q/496727679
+  ip: zmcp5.rhymc.com:1096
   is_member: false
   auth_mode: offline
   tags:
     - 模组Mod
-    - 城建
-
-- name: "冰原宝可梦服务器"
-  icon:
-    src: "/server_icons/冰原宝可梦.webp"
-  type: Java
-  version: 1.12.2
-  desc: |
-    朱紫宝可梦服务器
-    含最新第九世代宝可梦
-    非魔改宝可梦，不禁圣杯，红线
-    最大程度还原原版宝可梦对战
-    玩法多多，福利多多
-  link: https://qm.qq.com/q/n67PqqaBLU
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 宝可梦
-
-- name: "MrFat服务器"
-  icon:
-    src: https://www.mrfat.us/img/favicon.png
-  type: Geyser
-  version: 1.21
-  desc: |
-    死宅聚集地，欢迎各位来游玩本服务器！
-    死宅腐竹会和大家一起互动！
-  link: https://www.mrfat.us/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 宅文化
-
-- name: "信仰天域"
-  icon:
-    src: "/server_icons/信仰天域.webp"
-  type: Geyser
-  version: 1.20.1
-  desc: |
-    Forge端 农夫乐事 群青 ysm 方块小镇 飞车奇匠 ae2 暮色森林 灾变 精妙背包 无尽贪婪 更多装饰 高版本怀旧向长期建筑养老服务器 不换周目 实时更新插件与模组版本 三日一备份 欢迎大家游玩
-  link: https://qm.qq.com/q/DeqGT9L692
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 灾变
-    - 农夫乐事
-    - 怀旧向
-
-- name: "猫娘乐园"
-  icon:
-    src: "/server_icons/猫娘乐园.webp"
-  type: Java
-  version: 1.12.x
-  desc: |
-    猫娘乐园 ——纯净MOD生存|公益|工业|神秘|暮色|林业
-    很好玩的纯净mod服，没有复杂的指令，无死亡不掉落，有正版验证，欢迎所有方块人的加入！
-    每个人在服务器中都是平等的包括服主！
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JpckQwkEOoRU-YQUniZCoxVdwZNS_QrG&authKey=WsAoDeU6fmEgHEszYMiAwCliTS2RaTOt%2FOBuLthlE98Pw4a0WLtOrVvX%2F7XuoJKc&noverify=0&group_code=261483972
-  is_member: false
-  auth_mode: official
-  tags:
-    - 生存
-    - 工业
-    - 林业
-
-- name: "方块宝可梦"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    🎉 《我的世界方块宝可梦》全新冒险等你来战！ 🎉
-    🌍 探索无垠的方块世界
-    你是否厌倦了日常的繁琐，渴望一次全新的冒险？
-    《我的世界方块宝可梦》为你打开了一扇通往奇幻世界的大门！
-    在这个广袤无垠的方块世界里，你可以自由挖矿，随心所欲地建造自己的梦幻家园。🐲 神兽自...
-  link: https://qm.qq.com/q/ZFcs1HVcye
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: "一个养老服务器"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.21.1
-  desc: |
-    1.21.1养老原版服务器，百度网盘直接下载，内有服务器地址，内置各种光影，也可自行添加。
-    服务器无特别规定，请不要搞破坏，或者偷东西之类的，请遵守基本道德水准。
-    您也可以自行下载请参照下面的具体客户端版本
-    服务器地址：xm.rainplay.cn:25166
-    第一请使用盗版登录，id设置为Test
-    如果想长久玩下去，请添加QQ：2629683293
-    这个服是完全的公益服，因为有白名单，所以请添加QQ来添加白名单，防止有人蓄意破坏
-  link: https://pan.baidu.com/s/1OIFTuNsOScRIIlDPIQgzZA
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 摸鱼养老
-    - 原版
-
-- name: "M3inPE0.14"
-  icon:
-    src: /logo.webp
-  type: Bedrock
-  version: 0.14.x
-  desc: |
-    一个超级老的PE0.14生存服
-    服务器是美国的
-    地址:154.12.36.160 端口:19132
-    人非常少 我希望像生存斧一样
-  link: http://154.12.36.160/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 怀旧向
-
-- name: "Lucky clover幸运的四叶草🍀"
-  icon:
-    src: /server_icons/Lucky_clover.webp
-  type: Bedrock
-  version: 1.21.20+
-  desc: |
-    死亡不掉落生存服，有冰船小游戏，时钟管理菜单，基岩版原版bds
-    加入QQ群：972352260
-  link: https://pro.luckyclover.us.kg
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: "WTFXXJ"
-  icon:
-    src: /server_icons/WTFXXJ.webp
-  type: Java
-  version: 1.8.9-1.21.1
-  desc: |
-    WTFXXJ是一个(近乎原版的)我的世界生存服,在这里你可以和朋友们一起Van,插件少的情况下会紧跟版本更新.
-    WTFXXJ是一个普普通通的生存服，你可以理解和你开单人档差不多！！！只是加了一些{玩家让加的}功能类插件！
-    ​进入服务器即代表你同意服务器规则中的所有内容！若不同意请勿进服
-  link: https://www.wtfxxj.top/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: "RBS"
-  icon:
-    src: /logo.webp
-  type: Geyser
-  version: 1.21.1
-  desc: |
-    RBS 差不多就是Redstone building server的简写。
-    一个生电服务器。很小，人数上限5，人爆了需要排队。
-    目前人数较少（都开学了呀）。我们是互通，但Java优先，我们的互通更新也较慢。
-  link: https://qm.qq.com/q/ry88nCQDrU
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生电
-
-- name: "自由无政府JE服务器"
-  icon:
-    src: /server_icons/自由无政府JE服务器.webp
-  type: Java
-  version: 1.21
-  desc: |
-    这是一个无政府服务器，没有特殊情况24小时在线，这里虽然是无政府生存服务器，但是很安全（反作弊做的肯定到位），离线/正版均可，最大15人。
-  link: https://qm.qq.com/q/7vuLWVUCQM
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 生存
-
-- name: "minecraft synthesize survive(MSS)"
-  icon:
-    src: /server_icons/minecraft_synthesize_survive.webp
-  type: Geyser
-  version: 1.21.1
-  desc: |
-    paper插件互通服务器，内已添加粘液科技、连锁挖矿、等价交换，船新未开荒
-  link: https://qm.qq.com/q/zROUGLpQxa
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 粘液科技
-    - 连锁挖矿
-    - 等价交换
-
-- name: "Lie-downCraft"
-  icon:
-    src: /server_icons/Lie-downCraft.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    一个原版服务器，主要研究生存红石电路和建筑，为在现代化快节奏社会中忙碌的人提供一个休息自己灵魂，放松自己的地方 这是一个自由的，开放的，包容的原版Minecraft生存服务器，在这里你可以尽情创造，与大家一起建造超级工程，研究红石机器，又或者和基友搞基，在Minecraft的世界中尽情探险。
-  link: http://homea350ti.top:3000/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 红石
-    - 建筑
-
-- name: "OASIS绿洲起源"
-  icon:
-    src: /server_icons/oasis.png
-  type: Java
-  version: 1.20.4
-  desc: |
-    原版可生电，难度较大，怪物加强，限制生产力保持趣味性的服务器
-  link: https://www.mczfw.cn/server/2474.html
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生电
-    - 高难度
-
-- name: "SNR无规则服务器"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    SNR是一个没有规则没有秩序的服务器，在这里玩家可以做任何想做的事情，并且不禁用坚持与努力，在这个混乱的服务器生存下去，你可以建造基地建立组织（虽然现在服务器才刚开，一点也不混乱），本服为免费服务器，正版离线玩家均可加入，非常原汁原味只有账号和皮肤插件 服务器版本： 1.20.4（目前只支持这一个版本，以后会更新） 一些实用指令： 注册/reg 输入密码 再次输入密码 登录/l 输入密码 更改皮肤/skin 正版玩家id
-  link: https://qm.qq.com/q/2YQEUoWZIA
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 生存
-
-- name: "樱花宝可梦"
-  icon:
-    src: /server_icons/sakura-poke.png
-  type: Java
-  version: 1.20.2
-  desc: |
-    樱花宝可梦 开放世界 自由冒险世界 Q群号1090409628
-  link: https://qm.qq.com/q/aXtGejlOaA
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 宝可梦
-    - 开放世界
-
-- name: "Yangixel"
-  icon:
-    src: /server_icons/yangixel.png
-  type: Java
-  version: 1.7.10-1.21
-  desc: |
-    做为一个mc服务器我们集成了多元素开放式的游玩方式 在这个服务器中你很自由可以随心所欲的创造也可以与朋友来上一次激情的PVP这正是我们想要看到的希望yangixel可以为您带来好的游玩体验
-  link: https://yangixel.cn/
-  ip: play.yangixel.cn
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - PVP
-
-- name: "红溪花"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    这是一个温馨和谐的服务器，提供了稳定流畅的体验，自从2024开服以来我们努力创建一个环境良好更公平公正的游戏氛围，希望与更多的玩家们一起度过了愉快的时光,在这里的日子将会是你值得回忆的美好。我们保证不做影响平衡、破坏公平的行为。服务器暂时处于一周目开荒阶段，欢迎玩家提出意见或者举报违规行为，请大家自觉遵守游戏规则。
-  link: https://www.redbf.top/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 摸鱼养老
-
-- name: "Starry Isles空岛生存"
-  icon:
-    src: /logo.webp
-  type: Bedrock
-  version: 1.21.50
-  desc: |
-    Minecraft基岩版1.21.5x服务器
-    地址: starry-isles.run.place
-    备用b.starry-isles.run.place
-    端口请进入官网查看
-  link: http://www.starry-isles.run.place/
-  is_member: false
-  auth_mode: official
-  tags:
-    - 空岛
-    - 生存
-
-- name: "PepperCraft"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.19-1.21.4
-  desc: |
-    一个“基于原版，忠于原版”，尝试将PVP、生存、生电等玩家融合的原版生存服务器。
-  link: docs.pepper.ltd
-  ip: pepper.ltd
-  is_member: false
-  auth_mode: official
-  tags:
-    - 纯净
-    - 生存
-    - 生电
-
-- name: "我的世界FOX服务器联盟"
-  icon:
-    src: /server_icons/foxserver.png
-  type: Java
-  version: 1.19-1.21.4
-  desc: |
-    一个热爱创新来自于MC的服务器联盟集群
-  link: https://www.mc.sccc.top/
-  ip: mc.sccc.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 群组
-
-- name: "Mondra"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.21
-  desc: |
-    这是一个无规则服务器，且你拥有op权限。因此你可以在服务器中干任何你想干的事。
-    Nothing is impossible,
-    Just you want to do.
-  link: https://qm.qq.com/q/XJDFzvJEMm
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 全员OP
-
-- name: SyServer
-  icon:
-    src: /server_icons/sy.png
-  type: Java
-  version: 1.20.1
-  desc: |
-    服务器官方QQ群群号：250904271
-    服务器开创于2024-08-20
-    服务器官网：www.SyServer.asia或www.SyServer.us.kg
-    主世界和下界有死亡不掉落，末地没有死亡不掉落
-    Discord：https://discord.gg/6A5GvGWr
-    -------------------
-    SyServer (Java版)：
-    IP：syserver.asia
-    备用IP：syserver.us.kg
-    版本：1.20.1（最佳进入版本）或更高的版本
-    服务器工单系统：https://www.wjx.cn/vm/OKKoqmg.aspx#
-  link: https://www.SyServer.asia/
-  ip: syserver.asia
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: 天幻岛
-  icon:
-    src: /server_icons/tianhuandao.jpg
-  type: Java
-  version: 1.12.2
-  desc: |
-    ——————————————————
-    【现已更新至 1.21.1 版本】
-    进服后，大家一起玩就是一个大家庭啦！(´-ω-`)
-    🌟无需正版账号也能轻松加入🌟
-    服务器硬件配置：
-    物理机配置：i9-13900K 24核32线程，128GB内存，1TB固态硬盘
-    提供实用功能：圈地保护、COI查询、防熊机制等
-    任何问题都可以找管理员，我们会积极解决！
-    服务器IP地址：
-    MC.TNTMC.CC
-    核心玩法：
-    纯净生存、PVP对抗、建筑创作、养老玩法等
-    时装系统、生成电力、红石工程
-    本服禁止使用矿透工具
-    更多特色：
-    无限跑图，超大视距，流畅体验
-    快速加入QQ群925058935，尽享所有精彩内容！
-    ——————————————————
-  link: https://www.bilibili.com/video/BV16KczeKExp/?share_source=copy_web&vd_source=082c0eed257c3edb3a58d3a703319082
-  ip: mc.tntmc.cc
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 纯净
-    - 生存
-    - PVP
-    - 建筑
-    - 红石
-    - 摸鱼养老
-
-- name: "PotatoZoo"
-  icon:
-    src: /server_icons/potatozoo.png
-  type: Java
-  version: 1.16.5
-  desc: |
-    PotatoZoo是一个开放的Minecraft服务器
-    我们在不修改原版机制的前提下添加了些许新的内容
-  link: https://potatozoo.us.kg
-  ip: potatozoo.2m.pub
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: "如月倾城"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.21.4
-  desc: |
-    服务器版本:1.21.4 开荒时间:2025.1.17 仅支持这个版本进入此服
-    服务器类型:生存
-    开服至今已八年之久了，每次换挡可保留地皮世界，以便保存玩家们的努力
-    会持续进行更新，慢慢拓展
-    特色:副本 模型 特殊附魔 姿势 基础 地皮等
-  link: https://www.bilibili.com/video/BV18r421s7qF/
-  ip: mc.ruyue2025.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 冒险
-    - 角色扮演
-
-- name: "雪花小镇"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.16.5
-  desc: |
-    模组内容包含：
-    暮色森林，车万女仆，灾变，天境，alex生物以及大部分乌托邦探索之旅mod，根据乌托邦探索之旅整合包改制的forge版本，此外包含战利品箱，不怕开荒无资源，独特任务制作中。
-    服务器下载地址：
-    群文件下载
-    群号649453692
-    简介：
-    结婚丨全球市场丨领地丨经营丨建筑丨冒险丨探索丨生存丨养老丨交友丨工会丨地表丨邮件
-    服务器采用14900k128g运存独立物理机，让你流畅玩服不卡顿
-    服务器模组内容较多对配置要求较高，运存16g以上
-    欢迎加入雪花小镇，服务器长期开放，永不关服。
-    服务器已经累计开服一年，在这里，可能你会觉得无法融入了，开荒很久了，但是服务器采用跨服数据互通的方式为了容纳更多的玩家，将生存区和资源区分开处理，资源区不定期更新，并且都带有战利品箱子mod，此mod会让野外生成的战利品每个人都能开出道具来，互相独立不影响，并且配备有独立庄园系统，一个50X50大小的独特世界，无人打扰，并且还有一个独立的创造服大区，此区域虽不和其他区域互通，但是能随便体验各种mod的内容，生存区适合建立家园。
-  link: https://qm.qq.com/q/PfHGXzmoCe
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 模组Mod
-    - 探索
-    - 摸鱼养老
-    - 交友
-    - 角色扮演
-
-- name: "XRayMC"
-  icon:
-    src: /server_icons/xraymc.jpg
-  type: Java
-  version: 1.8.9 - 1.20.X
-  desc: |
-    XRayMC 群组服务器致力于为玩家提供一个充满创意与挑战的世界。我们使用指令+插件的方式构建服务器框架，有建筑专区、跑酷、指令测试 等子服务器和玩法还有许多彩蛋等待发掘，欢迎各位玩家加入我们的大家庭=)
-  link: https://qm.qq.com/q/lA6CQJTTiM
-  ip: xraymc.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 群组
-    - 建筑
-    - 跑酷
-    - 指令
-
-- name: "星光StarShine"
-  icon:
-    src: /server_icons/StarShine.png
-  type: Geyser
-  version: 1.9.1 以上
-  desc: |
-    互通插件生存服务器
-    死亡不掉落:主世界✓下界✓末地×
-    主城含有一个物品不太全的商店，服务器带传送，领地，商店等插件，目前主玩法为生存，自由探索，后续尝试打算改群组服尝试以添加一些小游戏，进服请加群！
-    官网：www.8bc.top
-    玩家交流群：237099407
-  link: https://www.8bc.top
-  ip: mc.8bc.top:26665
-  is_member: true
-  auth_mode: yggdrasil
-  tags:
-    - 生存
-
-- name: "Sparkpixel Server"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: Forge 1.20.1
-  desc: |
-    一个mtr与机械动力并存的创造服务器(正版+外置)
-  link: https://qm.qq.com/q/2PiVTrfWvK
-  is_member: false
-  auth_mode: yggdrasil
-  tags:
-    - 创造
-    - 模组Mod
-    - 机械动力
-
-- name: "Creepix"
-  icon:
-    src: /server_icons/creepix.png
-  type: Java
-  version: 1.12.2-1.18.1
-  desc: |
-    Creepix Network
-    🎉 欢迎来到我的世界玩家的天堂！ 🎉
-    在这里，你将踏上一段充满惊喜与欢乐的冒险之旅。我们的群组服致力于打造一个多元化的游戏世界，无论你是喜欢自由探索的生存玩家，还是热衷于创造奇迹的建筑大神，亦或是渴望沉浸式冒险的RPG爱好者，这里都能满足你的所有幻想！
-    游戏模式，总有一款适合你！
-    养老生存：这是一片充满宁静与自由的土地，就像一个温暖的家，等待着你来开荒。基础传送、领地划分、详尽地图，还有生电、建筑、高频红石等丰富玩法，让你在新服开荒的旅程中尽情享受创造与探索的乐趣。
-    创造建筑：这里是建筑爱好者的天堂！你可以尽情发挥想象力，建造属于你的世界。无论是宏伟的城堡，还是精巧的红石机关，都可以邀请他人与你协作，共同打造令人惊叹的奇迹。
-    RPG冒险：在资源世界中收集稀有材料，与志同道合的玩家组队，或是独自挑战副本BOSS，收集最强装备。每一次冒险都充满未知与惊喜，每一次战斗都让你热血沸腾！
-    社区活动，欢乐不停！
-    不定期活动与挑战：我们精心策划了各种活动和挑战，让你有机会赢取游戏奖励和稀有物品。每一次活动都是一个全新的开始，每一次挑战都能让你收获满满的成就感！
-    社区建设：我们的世界由玩家共同创造！在这里，你的每一个创意都能成为现实，你的每一次付出都能让这个世界变得更加美好！
-    加入我们，开启精彩之旅！
-    无论你是新手玩家，还是资深大神，我们都热烈欢迎你的加入！在这里，你可以：
-    与其他玩家互动交流：结交志同道合的朋友，分享你的游戏心得，倾听他们的故事。
-    参加各种游戏模式和活动：体验不同的玩法，挑战自我，收获快乐。
-    建造属于你的家园：无论是温馨的小屋，还是宏伟的城市，都可以在这里实现。
-    发挥你的创造力和想象力：用方块搭建出属于你的奇幻世界。
-    与朋友一决高下：在竞技与合作中，感受游戏的乐趣。
-    我们的服务器地址： mc.creepix.top
-    交流群:974614889
-    快来加入我们吧！在这里，你将找到属于你的快乐，找到志同道合的朋友，找到一个充满无限可能的我的世界！
-  link: https://www.bilibili.com/video/BV18bFAeDEo5
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 生存
-    - 角色扮演
-
-- name: "方块树"
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.20.1
-  desc: |
-    你是否因为还没找到一个和谐的服务器而烦恼？你是否因为还没找到一个满意的服务器而痛苦？你是否因为繁琐的开荒而痛苦？
-    那就来方块树！
-    探索无尽的自由生存世界，RPG与魔改粘液的奇妙碰撞，
-    海量原创内容等你来发掘。
-    和谐交友，休闲养老，
-    冒险与福利齐飞！
-    多年经营，稳定可靠，
-    让你畅享真正的开荒乐趣！
-    这不只是游戏，
-    更是一个共同成长的家园！
-    加入我们，开启开启超级海岛之旅！
-  link: https://www.bilibili.com/video/BV1HVfkY3E58
-  ip: mc.playfks.world
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 和谐
-
-- name: 柳昏花暝
-  icon:
-    src: /server_icons/柳昏花暝.png
-  type: Geyser
-  version: 1.21
-  desc: 生存，禁止恶意破坏或攻击其他玩家
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=rBoeiqrZLieLZXaRHhHj0gOK30UC8JOe&authKey=K26ndnXovRdkCrJp8J2LhiO4GjXyJkRtQaR3c%2Bl%2FaMyUSZ1U2v0cAZxf0EsTF7ih&noverify=0&group_code=1022546158
-  ip: play.simpfun.cn:21332
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: ZRP我的世界生存服务器
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.16.5
-  desc: 版本 java1.16.5IP:play.simpfun.cn:10440
-    服务器种子123456
-    注册 /register 密码 密码
-    登录 /l 密码
-    传送 /tpa 玩家名
-    同意传送 /tpaccept
-    出生点20×20无法破坏
-    已开启死亡不掉落
-    允许矿透，不允许恶意破坏和攻击其他玩家
-    为便于交流，希望各位将自己在本群的昵称改为游戏名
-  link: https://qm.qq.com/q/XEcxi8GuAw
-  ip: play.simpfun.cn:10440
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 生存
-
-- name: 末影之境
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.20.1
-  desc: 有白名单加群审核
-    群号：254878113
-  link: https://mcicp.com/MCDPS/
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 半生电
 
 - name: 千禧年世界
   icon:
     src: https://qxn.world/logo.png
-  type: Java
-  version: 1.12.2-1.21.x
-  desc: 欢迎加入千禧年世界v4.5群组服务器
+  type: Geyser
+  version: 1.16.5-1.21.x
+  desc: |
+    欢迎加入千禧年世界v4.5群组服务器
     Beta1.0
     目前有生存大区
     目前有生存区，地皮世界
     后续更多玩法将会在Beta1.1加回来(
   link: https://qxn.world
-  ip: play.qxn.world
+  ip: nosrv.qxn.world:56000
   is_member: true
   auth_mode: official
   tags:
     - 生存
-
-- name: 大黑狗服务器
-  icon:
-    src: /server_icons/bigdog.jpg
-  type: Bedrock
-  version: 1.21.5x
-  desc: 欢迎来到MC国际大黑狗服务器！这是一片充满无限可能的方块世界，我们致力于为玩家提供一个自由、公平、充满乐趣的游玩环境。本服分为家园服与世界服，家园服永不换档、世界服会定期换档。
-  link: https://bigdog.jzrxh.work
-  ip: play.jzrxh.work:44100
-  is_member: true
-  auth_mode: official
-  tags:
-    - 生存
-    - 摸鱼养老
-    - 家园
-    - 世界
-
-- name: EggSurvival
-  icon:
-    src: /server_icons/EggSurvival.png
-  type: Geyser
-  version: 1.16-.1.21.4
-  desc: 服务器Q群438338988，服务器装有领地,商店,传送插件
-  link: https://eggmc.top/
-  ip: mc.ess.icu
-  is_member: true
-  auth_mode: official
-  tags:
-    - 生存
-    - 摸鱼养老
-    - 家园
-    - 世界
-
-- name: 水月服务器
-  icon:
-    src: /logo.webp
-  type: Java
-  version: 1.8-1.21.4
-  desc: 水月生电服务器,支持刷线机刷沙机等生电机器，拥有良好的生态环境,欢迎你的到来！
-  link: https://qm.qq.com/cgi-bin/qm/qr?k=NuQO7kLBsnk4jQnoQIQdje12KdvxT2tw&jump_from=webapi&authKey=0vM3Kcz17X3TI7xtsVb/69p1i/6tbp8SPSmi96w9eVH2cbffE/a49W05neqMFUp8
-  ip: play.simpfun.cn:26762
-  is_member: false
-  auth_mode: official
-  tags:
-    - 生存
-    - 生电
-
-- name: 枫叶源AutumnCraft
-  icon:
-    src: /server_icons/AutumnCraft.jpg
-  type: Java
-  version: Forge1.20.1
-  desc: 一个公益ATM9服务器+拔刀剑，版本1.20.1。跟进ATM官方更新，日均在线5-13人。
-  link: https://official.autumncraft.icu
-  ip: mc.autumncraft.icu
-  is_member: true
-  auth_mode: yggdrasil
-  tags:
-    - 拔刀剑
-    - ATM9
-
-- name: 麦芒纪元
-  type: Java
-  version: 1.21.4
-  desc: ia端1.21.4原版生存插件服务器，纯生存，养老，pvp，红石，宠物，时装，公益服，高版本
-  link: https://www.bilibili.com/video/BV1PH5Wz4ETB
-  ip: mc.mmjy1.top:54003
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 养老
-    - 生存
-    - 红石
-
-- name: Sunisland
-  type: Java
-  version: 1.20.4-1.21.4
-  desc: PG与空岛生存相结合 致力于制作原创内容的充满想象力的世界。
-  link: https://qm.qq.com/q/HX4dY2r52G
-  ip: na.sunisland.top
-  is_member: true
-  auth_mode: offline
-  tags:
-    - RPG
-    - 角色扮演
-    - 空岛生存
-
-- name: 3c3u
-  type: Java
-  version: 1.13-1.21.5
-  desc: 无规则,无政府,互通
-  link: https://qm.qq.com/q/jm23Bl61Ms
-  ip: 3c3u.icu
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 无政府
-    - 互通
-
-- name: 工业国际
-  type: Java
-  version: 1.20.1
-  desc: 以黄铜协奏曲整合包为核心的模组服
-  link: https://qm.qq.com/q/KE8TpgMeUo
-  ip: vat-n69.mutong1.com:21146
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 模组服
-    - 黄铜协奏曲
-    - 工业
-
-- name: H2OMC水立方
-  type: Java
-  version: 1.8-1.21
-  desc: |
-    H2OMC水立方是一个支持Java/基岩/网页版三端互通的高性能服务器，前身为Pigcraft与Sheepixel。
-    - Pigcraft宣传视频：https://b23.tv/YK236iI
-    - Sheepixel宣传视频：https://b23.tv/CxWyMsk
-    - MC百科页面：https://play.mcmod.cn/sv20187755.html
-    - 官方网站：https://h2omc.cn/
-    服务器采用双英特尔6154 CPU与256GB内存，保证低延迟与流畅体验，假期高峰支持50人同时在线。
-  link: https://h2omc.cn/
-  ip: mc.h2omc.cn
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 三端互通
-    - 起床战争
-    - 小游戏
-    - 多元玩法
-
-- name: Nes
-  type: Java
-  version: 1.21.4
-  desc: |
-    Welcome To Nes 我的世界服务器
-    这是一个无规则养老生存服务器。
-    - 服务器内有登录插件。
-    - 有时可能会出现网络故障。
-    - 如发现问题请及时联系管理员或服主。
-  link: https://b23.tv/iKtpGDA
-  ip: play.resserver.xyz:15090
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无规则
-    - 养老
-    - 生存
-
-- name: 星辰服
-  type: Bedrock
-  version: 1.21.50-1.21.73
-  desc: |
-    生存玩法服务器，拥有领地、公会、传送、市场、地图画、连锁挖矿等多种插件功能，
-    并支持群服互通。工作日活跃人数≤10人，节假日高峰可达20+。
-    本服为纯公益服务器，无氪金内容、不强制赞助。
-    交流群：379155972
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=P_vd2rfqVgrEoW-rxFeYjknP5JeZSm7V&authKey=LJPsJU7%2BuIP%2F29e1UPeaNQsnzEySlldGNHUFrjjKNwJJHax4ykI6SHwXnRlYH4JI&noverify=0&group_code=424653409
-  ip: mcbe.top:19132
-  is_member: true
-  auth_mode: official
-  tags:
-    - 生存
-    - 群服互通
-    - 纯公益
-    - 多功能插件
-
-- name: ZSI帧春依梦
-  type: Java
-  version: 1.21.1
-  desc: |
-    我们是一个基于 Folia 分支 Luminol 的免费生电服务器。
-    拥有自己的官方网站：www.tcping.fun
-  link: https://www.tcping.fun/home
-  ip: Love.tcping.fun
-  is_member: true
-  auth_mode: official
-  tags:
-    - 生电
-    - 公益
-
-- name: FTX
-  type: Java
-  version: 1.8.2~1.21.4
-  desc: |
-    FTX生存服务器，支持多个版本，可建筑可生电，欢迎加入！
-  link: https://b23.tv/xF0ptza
-  ip: ftx.moliym.top
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 建筑
-    - 生电
-    - 多版本
-
-- name: 工业奇缘
-  type: Java
-  version: 1.7.10
-  desc: |
-    经典的工业、RPG、神秘魔法等玩法服务器。
-    复刻7年前麦块火热时期的服务器，纯公益为爱发电！
-  link: http://ys.hu-tao.xyz/
-  ip: ys.mihyou.fun
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 工业
-    - RPG
-    - 魔法
-    - 复刻
-    - 纯公益
-
-- name: 燎原火
-  type: Bedrock
-  version: 1.21.72
-  desc: |
-    燎原火—Minecraft基岩版养老服务器，拥有和谐的玩家生态。
-    在这里，无论是生电、建筑、探险，甚至是只会种田的小白，都能找到归属感。
-  link: https://liaoyuanhuo.mysxl.cn
-  ip: play.simpfun.cn:23948
-  is_member: true
-  auth_mode: official
-  tags:
-    - 建筑
-    - 生电
-    - 养老
-
-- name: 喜欢喝果汁の公上一璇
-  type: Java
-  version: 1.9-1.21.5（Java）/ 1.21.60+（基岩）
-  desc: |
-    [喜欢喝果汁の公上一璇服] 是一款刺激的生存冒险服务器，融合原版玩法与丰富插件内容。
-    支持智能机器人、自动化系统及白名单机制，适合喜欢挑战与探索的玩家。
-    官网：aft521.top，QQ群：582678456
-  link: https://b23.tv/19qebN1
-  ip: aft521.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 冒险
-    - 原版增强
-    - 插件
-    - 白名单
-    - 互通
-
-- name: YouZiCraft
-  type: Java
-  version: 1.20.1
-  desc: |
-    YouZiCraft 于 2024 年 12 月开服，目前为 Java 模组服，已稳定运营 4 个月。
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=gSbisWjP47qQJjwoMJKHjj8ZuLozcf3E&authKey=Fy1JrB7R5mwwR65iyIelfD%2BCR2PtrtFMhptMWQCjOLhSocsAcKDx8WB2%2B6OT26KR&noverify=0&group_code=1020909749
-  ip: play.youzicraft.com
-  is_member: false
-  auth_mode: official
-  tags:
-    - 模组服
-    - 生存
-
-- name: ShellTurtle服务器
-  type: Java
-  version: 1.8.x-1.21.x
-  desc: |
-    欢迎来到 ShellTurtle服务器，一个专为追求轻松、闲适游戏体验的玩家打造的养老休闲 MC 服务器！
-  link: https://www.shellturtle.top
-  ip: mc.shellturtle.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 养老
-    - 生存
+    - 群组
 
 - name: 🌴像素绿洲 | PixelOasis
-  type: Java
-  version: 1.21.x
+  type: Geyser
+  version: 1.21.4
   desc: |
     像素绿洲是一个支持 Java 与基岩互通的原版生存服务器，倡导自由、公平与合作。
     - 玩法：原版生存，少量优化支持生电
@@ -1417,734 +297,35 @@
     - 公平
     - 高性能
 
-- name: 小丘服务器
-  type: Bedrock
-  version: 1.21.2
-  desc: 基岩原版生存服，长期运行，致力于打造一个开放、和谐的原版生存服务器
-  link:
-  ip: h1.getmc.cn:30000
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 原版生存
-    - 基岩版
-    - 长期运行
-    - 和谐社区
-
-- name: XK生电
-  type: Java
-  version: 1.20.1
-  desc: |
-    Minecraft 星空服务器，支持1.20.1版本进入，需正版账号。
-    →→→→→【加入我们】←←←←←
-    QQ群：622952247，IP地址进群即可获取
-    →→→→→【服务器特色】←←←←←
-    - 基于1.20.1 Fabric，极致生电体验
-    - 添加carpet与bbor，无改动红石，不限生电
-    - 增加人性化合成表
-    - /player 1 tp 实现假人远程tp
-    - 共同发展，服主与玩家同乐
-    →→→→→【服务器进度】←←←←←
-    开荒中！
-  link: http://xingkongmc.fun
-  ip: server.xingkongmc.fun
-  is_member: false
-  auth_mode: official
-  tags:
-    - 生电
-    - 开荒
-
-- name: ABS
-  type: Java
-  version: 1.20.1
-  desc: |
-    1.20.1懒狗生电服，MCDR-fabric_carpet端。
-    - 可以飞，死亡不掉落
-    - 支持打印机、矿透、TP
-    - 有CCE更抑盒，强大附魔
-    - 合成器移植，快捷潜影盒等功能
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XvJOUGYudccRFl4Fj4FQ5Tpw0Ll4G0M7&authKey=SY9C0OcJ5gwqi8ZVDbHtxjMEHnJcop%2B5F7HX4V5km5Vehmz9tExjGU1y0HMcmht8&noverify=0&group_code=1030820019
-  ip: abs-mc.cn
-  is_member: false
-  auth_mode: official
-  tags:
-    - 生电
-    - 懒狗服
-    - 自由玩法
-    - CCE
-
-- name: 往颜料灌纸
-  type: Java
-  version: 1.20.1
-  desc: |
-    养老、探索、冒险，需要正版账号。
-    企鹅群：881468671
-  link: https://qxlqxl.com
-  ip: mc14.rhymc.com:30047
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 养老
-    - 探索
-    - 冒险
-
-- name: ONE BLOCK
-  type: Java
-  version: 1.16.5
-  desc: |
-    社会模拟 - 海贼人生 - 抒写神话
-    ONE_BLOCK怒海航路是以海贼王为背景核心的多模组社会模拟服务器。
-    - 拥有大量原创玩法，并对模组进行了优化与联动。
-    - 可在超大地图上宣言领土，建立联邦，发动战争。
-    - 挑战原创BOSS，体验原创武器与装备锻造。
-    欢迎加入这个属于你的海贼世界！
-    QQ群：1042302515
-    KOOK频道：https://kook.vip/KCQRJn
-  link: https://kook.vip/KCQRJn
-  ip: 122.246.0.236:54888
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 社会模拟
-    - 海贼王
-    - 战争系统
-    - 原创玩法
-
-- name: 航纪元
-  type: Java
-  version: 1.18.2
-  desc: |
-    一个以机械动力和瓦尔基里为基础的服务器。
-    - 多种多样的玩法，体验机械动力工厂的乐趣。
-    - 使用瓦尔基里载具与他人切磋。
-    - 搭载上百个模组，丰富你的游戏体验。
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=m5emAoh9pymtEM7SU1aqwiO0snlB5bHi&authKey=mdggIRefjnZUjwbloRqbybl%2BkEydvdAcjbrs5VLgiA0AFoJ1yxQjBI%2BCPv9wiHTg&noverify=0&group_code=338783792
-  ip: cn-sh-2.lcf.im:56099
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 机械动力
-    - 瓦尔基里
-    - 工业科技
-    - 载具对战
-
-- name: 跑路服
-  type: Java
-  version: 1.13-1.21.4
-  desc: 以小游戏为主体的大型群组服务器，拥有非常多的趣味玩法
-  link: https://nav.pueh.cn
-  ip: mc.run:25565
-  is_member: true
-  auth_mode: yggdrasil
-  tags:
-    - 小游戏
-    - 群组服
-    - 趣味玩法
-    - 多端互通
-
-- name: 云の梦
-  type: Java
-  version: 1.21.4
-  desc: |
-    云の梦是一个开放的养老公益服务器，紧跟版本步伐，目前已经四周目啦！
-    运营商不跑我不跑，快来和腐竹一起打造一个我们的世界吧
-  link: https://qm.qq.com/q/P235yMGtWi
-  ip: 103.116.247.44:65535
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 养老
-    - 公益
-    - 生存
-    - 四周目
-
-- name: 天际服
-  type: Java
-  version: 1.21.4
-  desc: |
-    天际服是一个致力于打造温馨友善 Minecraft 公益生存服社区，采用正版验证 + 公益免费的模式，确保游戏环境公平和谐。
-    拥有大量黑名单样本和反作弊机制，能够从根源杜绝影响游戏体验的情况。
-  link: https://jq.qq.com/?_wv=1027&k=ZHIBqXTe
-  ip: 233.ci
-  is_member: false
-  auth_mode: official
-  tags:
-    - 公益服
-    - 生存
-
-- name: 日暮里
-  icon:
-    src: /server_icons/hgmenu.png
-  type: Java
-  version: 1.21.X
-  desc: |
-    无政府服务器，整合了多种有助生存的插件：
-    - 墓碑
-    - 安全交易
-    - 坐
-    - TPA
-    - 高级登录
-    由一支高中生管理团队运营，致力于自由与可控并存的体验。
-  link: https://hgmenu.xyz
-  ip: rimuli.club
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无政府
-    - 生存插件
-    - 高中生团队
-    - 自由生存
-
-- name: FluxCraft
-  type: Java
-  version: 1.20.6
-  desc: |
-    互通服务器，离线、安全、稳定，一款史诗级别的服务器。
-    - 支持全新地形、古城、地狱、末地。
-    - 还原原版特性：高版本刷线机、0T催熟、共享村民折扣。
-    - 红石优化但不过度，不是“烂红石”。
-  link: https://www.bilibili.com/video/BV1VjFheYEha
-  ip: mcloud.xin
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 互通
-    - 原版优化
-    - 红石友好
-    - 生存
-
-- name: The Fool From FW
-  type: Java
-  version: Forge 1.20.1
-  desc: |
-    The Fool From PFWs 是一个隶属于PFWs游戏服务器部的JAVA非原版服务器
-    - 服务器主题：伪装和欺诈。
-    - 核心玩法：变身、交易、遗物和愚者仪式。
-    - 最终目的：欺骗敌对势力，愚弄身边朋友，亦或者欺骗自己
-  link: https://qm.qq.com/q/cSNQuLjQaI
-  ip: mcs.pfws.work:60000
-  is_member: false
-  auth_mode: official
-  tags:
-    - MOD
-    - 伪装和欺诈
-
-- name: Ink Snow 墨雪殿
-  type: Java
-  version: Forge 1.20.1
-  desc: |
-    墨雪殿是以多线叙事生存为核心的沉浸式Minecraft服务器，玩家将扮演角色，挑战动态剧情与硬核生存，通过生存发展、对抗环境异变、抉择阵营命运来发展服务器的命运。服务器支持玩家共创支线剧情，打造永不重复的史诗冒险。
-  link: https://qm.qq.com/q/FJiUUhOVaK
-  ip: game.spawnmc.xyz:3300
-  is_member: false
-  auth_mode: official
-  tags:
-    - 动态剧情
-
-- name: 海之韵RPG生存互通服务器
-  type: Java
-  version: 1.18.2-1.20.4
-  desc: |
-    欢迎来到海之韵 RPG 原版生存 MC 服务器！这里还原纯粹生存乐趣，丰富资源、神秘探险，等你开启方块世界新旅程！
-  link: https://qm.qq.com/q/Hh4xrOkwYo
-  ip: sb.bccfdea.com:25565
+- name: Niftyの小破服
+  type: Geyser
+  version: 1.21.8
+  desc: Niftyの小破服
+  link: https://qm.qq.com/q/1041150728
+  ip: niftymc.cn
   is_member: false
   auth_mode: offline
   tags:
     - 生存
 
-- name: NexusNest
-  type: Java
-  version: 1.21/1.21.1 Fabric
-  desc: 纯净生电服，查熊、回档、地毯全家桶、快捷潜影箱等模组齐全，性能强悍，开启死亡不掉落，RTP，TPA
-  link: https://nexusnest.xn--7zrz5l98h2rnhw9b.top/
-  ip: frp-hen.com:46607
-  is_member: true
-  auth_mode: official
-  tags:
-    - 纯净生电
-    - 地毯模组
-    - 快捷潜影箱
-    - 死亡不掉落
-    - 高性能
-
-- name: 春夏之梦-第七空间
-  type: Java
-  version: 1.7-1.21
-  desc: 春夏之梦-第七空间 是一款融合战斗、生存、副本、剧情与RPG要素的大型多玩法服务器，支持多端登录、自由发展、挑战副本、探索彩蛋，致力于打造一个长期稳定、充满乐趣与创意的和谐世界。
-  link: https://www.mcd7.cn
-  ip: mcd7.cn
-  is_member: false
-  auth_mode: offline
-  tags:
-    - RPG
-    - 多玩法
-    - 生存
-    - 副本
-    - 彩蛋探索
-    - 和谐社区
-
-- name: The New World
-  type: Bedrock
-  version: 1.21.51
-  desc: |
-    基岩版服务器（LL服务端），大杂烩玩法，既有RPG也有神话建筑、枪械等内容，并不定期添加新Addon。
-    玩法包含生存、探索、建筑、比赛、枪械等但不限于。服务器无白名单，欢迎加入。
-  link: https://www.mc.sccc.top/
-  ip: mc.pfws.work:19000
-  is_member: false
-  auth_mode: offline
-  tags:
-    - RPG
-    - 枪械
-    - 神话建筑
-    - 多样玩法
-    - 生存
-    - 探索
-
-- name: ATCraftMC
-  type: Java
-  version: 1.8-1.21.5
-  desc: |
-    ATCraftMC 是由一群志同道合的腐竹和玩家联合组成的集群服务器，秉持开放、包容、共享的理念，不断更新玩法和活动。
-    - 多样玩法：从生存到创造、从原版到模组，满足各种游戏需求。
-    - 稳定兼容：16核48G高配服务器，全国加速节点，支持 Java 与基岩版互通。
-    - 安全可靠：自主开发的 Quark-Plugin 拦截超 300 起熊服事件，服务器稳定性高达 95%。
-    - 宣传链接：
-      - 官网：https://atcraftmc.cn
-      - 宣传视频：https://www.bilibili.com/video/BV1YpztYuE8E
-      - 加群：https://qm.qq.com/q/DwGbbaGioU
-      - MC百科：https://play.mcmod.cn/sv20186815.html
-  link: https://atcraftmc.cn
-  ip: game.atcraftmc.xyz
-  is_member: false
-  auth_mode: official
-  tags:
-    - 集群
-    - 多玩法
-    - 生存
-    - 创造
-    - 模组
-    - 互通
-    - 安全防熊
-
-- name: StingCraft
-  type: Java
-  version: 1.20.4
-  desc: StingCraft：公益服务器，无需正版。主打粘液科技生存，还能创建自己的小世界。
-  link: https://www.bilibili.com/video/BV1AWVJz1EyH/
-  ip: mc.stingcraft.cn:25565
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 粘液科技
-    - 公益服
-    - 生存
-    - 小世界
-
-- name: 风绘之境
-  type: Java
-  version: 1.21.4
-  desc: |
-    一个基于 Leaves 的离线互通生存服，拥有 gsit、tpa 等功能。
-    支持生存、生电、养老，致力于打造一个综合性、多元化的友好社区服务器。
-    - 官网：https://mikufun.top
-    - 文档：https://docs.mikufun.top
-    - 宣传视频：https://b23.tv/VyKbBh9
-  link: https://mikufun.top
-  ip: mcs.mikufun.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 互通
-    - 生存
-    - 生电
-    - 养老
-
-- name: X_Star Network
-  type: Java
-  version: 1.8.2-1.21.5
-  desc: 粘液生存、小游戏、起床战争兼备的玩家交流社区
-  link: https://play.mcmod.cn/sv20188110.html
-  ip: mc.tbedu.top:25565
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 粘液生存
-    - 小游戏
-    - 起床战争
-    - 玩家社区
-
-- name: 晨羽服务器
-  type: Java
-  version: 1.8-1.21.x
-  desc: |
-    晨羽服务器是一个以生存为主、兼具小游戏的服务器，拥有2年历史，提供丰富玩法和便捷功能。
-    同时还设有服务器特色玩法等待你的探索。
-    - QQ 群：863500744
-    - 注意：Java 与基岩版使用不同的连接地址。
-  ip: mc.chenyumcs.cn
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 小游戏
-    - 多端互通
-    - 长期运营
-
-- name: CAL秋叶可乐二服
-  type: Java
-  version: 1.21.x
-  desc: |
-    CAL秋叶可乐·二服☀1.21.X原版休闲生存
-    群号：759293273（加群成为一般玩家♥）
-    leaves端♢带插件♡离线可进
-    民主集中制✿一般玩家有权参与管理
-
-    ★我们服没有服主！广大玩家就是服务器的主人！
-    宗旨：“包容·求同·快乐”✨
-    简介：“离线·休闲·民主”💫
-    原则：“为了玩家、适应发展”⚡️
-
-    ⭐️全中国最完善的管理组织体系！
-    最先锋的管理纲领🌙
-    最完善的规章条例☄
-    最详细的历史记载☁️
-
-    【可乐服简史】https://docs.qq.com/doc/DUFFHbmVOV3N2V1Rn
-    【规章总集】https://docs.qq.com/doc/DUFBxck9CSWVteVdU
-
-    支持生电、自带假人、民主管理、永不跑路
-    无正版验证、死亡不掉落、基础插件齐全
-    不用氪金也能肝到称号和飞行，服内还能点歌！
-
-  link: https://www.bilibili.com/video/BV1WwGdzkEBE
-  ip: play.simpfun.cn:18502
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 原版生存
-    - 民主管理
-    - 离线支持
-    - 生电
-    - 无氪金
-    - 休闲
-
-- name: ASITM光棱域
-  type: Bedrock
-  version: 1.21.6X（推荐1.21.61）
-  desc: 一个基岩版的多人生存服，可以交友、娱乐、生电、建筑、养老的服务器
-  link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Hg3lLoGu3dlLJpx2zzA3ao3h-AtDt_uA&authKey=2y8HLYlznmmmN%2BiV3gt6PIVkhboZ11m20YTF07Z3xLf6SBnuk15bufujNfzI703Q&noverify=0&group_code=639984851
-  ip: frp-mom.com:37248
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 娱乐
-    - 交友
-    - 生电
-    - 建筑
-    - 养老
-
-- name: PixelMine
-  type: Java
-  version: 1.20.1
-  desc: 我们使用Mohist混合端 插件齐全 mod持续更新
-  link: https://qm.qq.com/q/hEWo6DB9Kg
-  ip: 150.138.77.119:26552
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 生存
-    - Mod
-    - 插件
-
-- name: Changed MC
-  type: Java
-  version: 1.18.2
-  desc: |
-    【福瑞生电之旅】Java版 | 2024年7月开服，融合Changed兽化模组×硬核红石科技！
-    9.1GB存档铭刻80+玩家足迹，这里有「LW_XB」建造的自动化奇迹，也有指令翻车却温情满满的成长故事。
-    轻量小服重启运营，生电/建筑/探索三线并行，毛茸茸奇幻世界等你重塑！低门槛零压力，主城钟声为新旧旅人长鸣。
-    - B站关注：@好好的时间2
-    - QQ交流群：1023145196
-  link: https://cn-fire.kesug.com/?i=1#services
-  ip: cn_fire.2m.pub
-  is_member: false
-  auth_mode: offline
-  tags:
-    - Changed
-    - 生电
-    - 红石科技
-    - 建筑
-    - 探索
-    - 福瑞文化
-
-- name: 清玄服务器
-  type: Bedrock
-  version: 1.21.7
-  desc: 生存半公益服务器，现在刚开没多久，还没多少人，你的加入对我们非常重要！
-  link: https://b23.tv/nbnvlGv
-  ip: play.simpfun.cn:29525
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 半公益
-    - 新服
-    - 基岩版
-
-- name: 月星林
-  type: Java
-  version: 1.13-1.21.5
-  desc: |
-    欢迎来到月星林MC服务器！咱家机器杠杠的，卡顿？不存在的！
-    版本从1.13到最新1.21.5全支持，想怀旧就怀旧，想尝鲜就尝鲜。
-    游玩一分钱都不用充，但大家想赞助也欢迎，专属福利给你安排上，但绝对公平不破坏平衡！
-    腐竹在线陪玩，带你探索服务器的无限可能~
-  link: https://www.bilibili.com/video/BV1w6FYeREYE/
-  ip: mc.game.hixinghai.top
-  is_member: false
-  auth_mode: official
-  tags:
-    - 公平平衡
-    - 腐竹陪玩
-    - 高性能
-
-- name: FFS 永恒落英
-  type: Java
-  version: 1.20.1
-  desc: |
-    落英服（FFS，全称：永恒落英服务器）于2025年11月22日正式开设。
-    一服主要模组包含机械动力、瓦尔基里、乐事、tacz 以及多种遗迹与地形模组。
-    管理制度文档： https://docs.qq.com/doc/DQ0Zwd1V0YWhyT0Vt
-  link: https://qm.qq.com/cgi-bin/qm/qr?k=lEsZimmoQ668f1V8XNMoOFvrAM5J1OPC&jump_from=webapi&authKey=paayygIXqR4CPAyu2UPvBUsKrR5p9aDPglvyFNUu8dEmqAS01JVMmaqd4wvnfJUj
-  ip: play.simpfun.cn:11487
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 机械动力
-    - 瓦尔基里
-    - 遗迹模组
-    - 多模组
-    - 生存
-
-- name: 神圣国度
-  type: Java
-  version: 1.20.1
-  desc: |
-    钓鱼/挖掘/伐木三大成长线，八大世界自由穿梭。
-    - 伐木暴击掉落珍稀木材，挖矿触发隐藏矿脉彩蛋，每项技能均有专属特效。
-    - 12+职业自由转职，四大商店主导经济体系。
-    - 独创物品认主系统，绑定物品不掉落。
-    - 公会科技树系统：支持群体传送、资源共享等扩展功能。
-    - 钓鱼竞赛全服排行，赢取限定渔夫帽🏆。
-    - 隐藏剧情：古老石碑触发秘境探险🗿。
-    - 会员特权系统（当前暂未开放）。
-    - 宣传链接：
-        - Minebbs: https://www.minebbs.com/threads/minecraft.36283/
-        - QQ群: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=EFzXhAyssNRKirBgnb3BPj-PqBw_w2hq&authKey=9jRdcQ8w9WA4gsz2WMbUZhF41HUm01COpLfY9w7LMIoafozI5nQUfq4njLAKRpoU&noverify=0&group_code=1045923011
-        - B站视频: https://www.bilibili.com/video/BV1JpVPzcEDz
-  link: https://www.minebbs.com/threads/minecraft.36283/
-  ip: fantasydream.club:11451
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 生存
-    - 技能系统
-    - 职业系统
-    - 公会科技
-    - 探险
-    - 钓鱼
-    - 经济
-    - 剧情服务器
-
-- name: SScarft
-  type: Java
-  version: 1.8–1.21.x
-  desc: |
-    「SScarft」插件 | RPG | 生电 | 建筑 —— Java 基岩互通服务器。
-    在这里你能品味丰富的 RPG 内容，也能欣赏到他人的精美建筑，
-    更可以使用群友们设计的自动化机器，尽情发挥你的创造力，构建属于你的一方天地。
-    - RPG 插件：EliteMobs、MythicMobs
-  link: https://b23.tv/euFAlXH
-  ip: mc.zuaza.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - RPG
-    - 生电
-    - 建筑
-    - 插件服
-    - 互通
-    - 创造力
-
-- name: XYYH（XYYhome）
+- name: 恺之念
   type: Java
   version: 1.21.1
-  desc: |
-    neoforge正版机械动力服务端。
-    可以慢慢学习如何玩机械动力，也可以花费精力去探索世界。
-    因为没有插件所以打开了正版进行约束。
-    平常服主自己会在B站直播，目前也在学习如何使用机械动力。
-    客户端整体为自行整合，目前算是XYYH的三周目包。
-    本服务器为☁️租服，7x24小时开放。
-  link: https://qm.qq.com/q/sD4qYpqj72
-  ip: i9-08.mcstory.cc:59984
-  is_member: false
-  auth_mode: official
-  tags:
-    - 机械动力
-    - 生存
-
-- name: 湖光计划_Luminake.cc
-  type: Java
-  version: 1.21.4
-  desc: |
-    1.21.4版本的leaves端原版生电服务器，欢迎生电、建筑、养老休闲玩家游玩。
-    三周目定为永久周目，已稳定运行一个月，十分重视存档备份！
-    我们尽最大努力为您在日新月异的互联网上保存一份回忆…
-    - 游玩地址：happy.awacode.top:35361
-    - 宣传页：https://afdian.com/a/torchlake?tab=home
-    - QQ群：742772392
-  link: https://afdian.com/a/torchlake?tab=home
-  ip: luck.awacode.top:8699
+  desc: 恺之念
+  link: https://qm.qq.com/q/1012913953
+  ip: x2.yunyouidc.com:11111
   is_member: false
   auth_mode: offline
   tags:
-    - 生电
-    - 原版
-    - 养老
-    - 建筑
-    - 永久周目
+    - 生存
 
-- name: HTS
+- name: 悠哉世界
   type: Bedrock
-  version: 1.21.50-1.21.71
-  desc: |
-    基岩版没有好生存服？HTS服务器欢迎你！
-    HTS 是一个基岩版生存社区，拥有丰富实用的功能：
-    - 领地保护
-    - 玩家传送
-    - 商店系统
-    - 网页地图 / 商店 / 日志
-    - 连锁采集
-    - 群服互通
-    - 工会系统
-    更多内容，等你探索！
-    QQ群：556227648
-  link: https://bbs.htsmc.top
-  ip: mc.htsmc.top:32065
-  is_member: false
-  auth_mode: official
-  tags:
-    - 生存
-    - 社区
-    - 功能丰富
-    - 网页地图
-    - 群服互通
-
-- name: CHAOS SMP
-  type: Java
-  version: 1.20.4-1.21.4
-  desc: |
-    一个禁止作弊的公益无政府服务器。
-    - 支持 Java/基岩互通，版本范围 1.20.4-1.21.4。
-    - 无正版验证，有白名单机制（群号：624324072）。
-    - 公益运营，严格禁止作弊。
-    - 详情介绍：https://www.bilibili.com/read/cv12798731
-  link: https://www.bilibili.com/video/BV1nu411n7CB/
-  ip: chaos-smp.cn
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 无政府
-    - 公益
-    - 禁止作弊
-    - 白名单
-    - 互通服
-
-- name: HMY
-  type: Java
-  version: 1.21
-  desc: |
-    🏡【HMY服务器】——温馨养老，建筑自由！
-    🌿 原版纯净环境，无强制肝，无花里胡哨
-    🧱 主打建筑、探索、慢节奏生活
-    🔥 长期在线，稳定运营，适合养老、慢慢建造的小伙伴！
-    📢 加入我们：QQ群 621349568
-    【玩法标签】原版纯净 / 生存养老 / 建筑创作 / 氛围社区
-    一起在方块的世界里慢慢生活吧！🎈
-  link: https://www.bilibili.com/video/BV12ALZzhE6f
-  ip: hmy2.cn
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 原版纯净
-    - 生存养老
-    - 建筑创作
-    - 氛围社区
-    - 多端互通
-
-- name: FunTocraft
-  type: Bedrock
-  version: 1.21.5x-1.21.8x
-  desc: |
-    服务器有完善的插件，还有各种模组等待您来游玩！
-  link: https://www.tobecraft.xyz/
-  ip: mc.tobecraft.xyz:25766
+  version: 1.21.124
+  desc: 悠哉世界
+  link: https://qm.qq.com/q/895689642
+  ip: mc.youzaiworld:19950
   is_member: false
   auth_mode: offline
   tags:
     - 生存
-
-- name: 星光轨交创造服
-  type: Java
-  version: 1.20.1
-  desc: |
-    以地铁建造和城市建筑为核心的创造服务器，主打低限制、城建的创造玩法，装有MTR模组，worldedit，一些mtr衍生模组等，您的建筑了署名创作，突出您的贡献。纯公益，本地服务器，数据安全保障，新人凭个人历史建筑图即可加入共创，较低门槛，欢迎加入。
-  link: https://www.bilibili.com/video/BV1zZV3zJEnH
-  ip: mtr.8bc.top
-  is_member: true
-  auth_mode: offline
-  tags:
-    - 轨道交通
-    - 城建
-    - 创造
-
-- name: 依易云
-  type: Java
-  version: 1.21.4
-  desc: |
-    我们的服务器是围绕着粘液科技走的
-    有着丰富的扩展
-    纯公益服务器（不收捐助，游戏内外进群均不收费）
-    服务器高配16h64g内存 久玩不卡
-    享受真正的快乐 纯正插件生存服务器 加有反作弊 防止破坏服务器内游戏平衡
-    保证积极更新服务器 服务器有任何bug和问题会立即修复
-  link: https://qun.qq.com/universal-share/share?ac=1&authKey=zCScGdfvQELhhzA1dp1rOndCeGeg1o%2Bfa1LkREKnNTUNig%2FSguaF05SiP2Qcy4QZ&busi_data=eyJncm91cENvZGUiOiI2NDY4ODIzOTIiLCJ0b2tlbiI6InhvOVpQYnh5T0ZhS0RjQUZuSzRtZlBwKzNvSFVpSkJRdzFhYk9lUWVpOTZxRHdwL25ibjl5ZjdLbnNwOGJhbTUiLCJ1aW4iOiIxNDg1MDQzNjUxIn0%3D&data=bMAbbx5wCLltAgIG8Lfi5_BT80wNwISTejL7i4CbZQkrhJsBfaa1iXCRoSMX5yuVmQVAMQpaO7BiDAOhWZFmcQ&svctype=4&tempid=h5_group_info
-  ip: mc.yrd233.icu
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 粘液科技
-    - 生存
-    - 公益
-
-- name: 紫萱
-  type: Java
-  version: 1.16.5-1.20.1
-  desc: |
-    Minecraft 紫萱是一个公开测试于2024/02/24，05/25正式公开的生存服务器。
-    它是一个支持Java/基岩进入的生存服务器，服内所有主题皆以最简单为旨，服内提供了多种基础功能和设施，如领地系统、经济系统等等。
-    希望服务器会吸引到越来越多热爱原版生存的玩家，虽然它的质量不是很好，但值得你一试。
-  link: https://server.zxwmr.top
-  ip: mc-sc.zxwmr.top
-  is_member: false
-  auth_mode: offline
-  tags:
-    - 原版生存
-    - 多端互通
-    - 经济系统
-    - 领地系统
-    - 公测开启

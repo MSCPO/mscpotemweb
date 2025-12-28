@@ -1,4 +1,5 @@
 # Minecraft服务器集体宣传组织
+## 临时用官网
 
 [[加入委员会]](https://qm.qq.com/q/zcQwKOUZry)  [[加入玩家群]](https://qm.qq.com/q/dbRxlt3snC) 
 
